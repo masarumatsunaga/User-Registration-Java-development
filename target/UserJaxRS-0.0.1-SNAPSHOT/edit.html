@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<!-- Load Script -->
+<script type="text/javascript" src="js/user.js" defer></script>
+<script type="text/javascript" src="js/util.js" defer></script>
+<script type="text/javascript" src="js/index.js" defer></script>
+<title>edit</title>
+</head>
+<body>
+	<section id="contact" class="bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 mx-auto text-center">
+					<h1>ユーザー編集画面</h1>
+				</div>
+			</div>
+
+				<div class="mb-3">
+					<h2 id="number"></h2>
+				</div>
+				<div class="mb-3">
+					<label for="edit-name" class="form-label">名前</label>
+					<input type="text" name="edit-name" id="edit-name" class="form-control"></input>
+				</div>
+				<div class="mb-3">
+					<label for="edit-pass" class="form-label">パスワード</label> <input
+						type="text" name="edit-pass" id="edit-pass" class="form-control"></input>
+				</div>
+				<div>
+					<button type="button" id="cancel-btn" onclick="location.href='./'"
+						class="btn btn-secondary">戻る</button>
+					<button type="submit" id="edit-btn" class="btn btn-primary">更新！</button>
+				</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,5 @@
+com/sample/Users.class
+com/sample/util/Stripper.class
+com/sample/dao/UserDao.class
+com/sample/resource/UserResource.class
+com/sample/exec/Executor.class
